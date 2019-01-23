@@ -1,0 +1,19 @@
+Package: hybridProcess
+Title: Fitting and Simulation of Hybrid Process
+Version: 0.0.1
+Authors@R: person("Clement", "Lee", email = "clement.lee.tm@outlook.com", role = c("aut", "cre"))
+Description: Hybrid process is a non-homogeneous Poisson process where the intensity function is proportional to the product of a power term and an exponential term of time. This package provides functions for fitting a hierarchical model of hybrid processes to information diffusion data, such as a collection of Twitter retweets that belong to multiple original tweets, as well as functions for fitting from such a model.
+License: MIT + file LICENSE
+LazyData: true
+Depends: R (>= 3.4), magrittr (>= 1.5)
+Imports: tibble (>= 1.4.2), dplyr (>= 0.7.8), ggplot2 (>= 3.1.0), purrr
+        (>= 0.2.5), lubridate (>= 1.7.1), tidyr (>= 0.7.2), readr (>=
+        1.1.1), rjson (>= 0.2.20), lazyeval (>= 0.2.1), anytime (>=
+        0.3.0), Rcpp (>= 1.0.0), glue (>= 1.3.0)
+LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: C++11
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Packaged: 2019-01-23 13:31:42 UTC; clement_lee
+Author: Clement Lee [aut, cre]
+Maintainer: Clement Lee <clement.lee.tm@outlook.com>
