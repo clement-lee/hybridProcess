@@ -25,6 +25,9 @@ sim_hybrid(T, x, beta, kappa, lambda, phi, psi, tau, theta)
 
 \item{theta}{parameter for the exponential decay in the hybrid process; a non-negative scalar.}
 }
+\value{
+a numeric vector of retweet times.
+}
 \description{
 Simulate retweet times according to hybrid process
 }

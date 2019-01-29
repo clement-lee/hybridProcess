@@ -9,7 +9,9 @@
 #' @param psi shift in the power-law term; a non-negative scalar.
 #' @param tau precision of the Gaussian distribution for the random error; a positive scalar.
 #' @param theta parameter for the exponential decay in the hybrid process; a non-negative scalar.
+#' @return a numeric vector of retweet times.
 #' @importFrom stats pgamma qgamma rnorm rpois runif setNames time
+#' @export
 sim_hybrid <- function(T, x, beta, kappa, lambda, phi, psi, tau, theta) {
     omega <- 1.0 - lambda
     g1ml <- gamma(omega)

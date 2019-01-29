@@ -1,6 +1,6 @@
 Package: hybridProcess
 Title: Fitting and Simulation of Hybrid Process
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("Clement", "Lee", email = "clement.lee.tm@outlook.com", role = c("aut", "cre"))
 Description: Hybrid process is a non-homogeneous Poisson process where the intensity function is proportional to the product of a power term and an exponential term of time. This package provides functions for fitting a hierarchical model of hybrid processes to information diffusion data, such as a collection of Twitter retweets that belong to multiple original tweets, as well as functions for fitting from such a model.
 License: MIT + file LICENSE
